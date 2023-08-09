@@ -1,7 +1,24 @@
-package lista04.animais;
+package lista04.animais.terrestres;
+import lista04.*;
 
-import lista04.AnimalAB;
+public class Cachorro extends AnimalTerrestreAB {
 
-public class Cachorro extends AnimalAB {
+    @Override
+    public void comer() {
+
+        this.quantidadeVezesComeu++;
+    }
+
+    @Override
+    public void moverse() {
+
+        this.quantidadeCaminhoPercorrido++;
+    }
+
+    @Override
+    public void dormir() {
+
+        this.quantidadeVezesDormidas++;
+    }
 
 }
