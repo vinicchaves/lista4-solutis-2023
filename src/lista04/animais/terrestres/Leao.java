@@ -1,7 +1,6 @@
 package lista04.animais.terrestres;
 import lista04.*;
 
-import lista04.AnimalAB;
 
 public class Leao extends AnimalTerrestreAB {
 

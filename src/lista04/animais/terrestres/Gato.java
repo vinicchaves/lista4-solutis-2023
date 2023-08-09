@@ -13,7 +13,7 @@ public class Gato extends AnimalTerrestreAB {
     @Override
     public void moverse() {
 
-        this.quantidadeCaminhoPercorrido++;;
+        this.quantidadeCaminhoPercorrido++;
     }
 
     @Override
